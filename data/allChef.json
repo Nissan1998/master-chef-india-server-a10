@@ -1,11 +1,12 @@
 [
   {
     "categoryID": 1,
+    "id": 1,
     "chefName": "Sanjeev Kapoor",
     "totalRecipeNumber": 1000,
     "chefURL": "https://static.toiimg.com/thumb/48202473.cms?resizemode=4&width=800",
     "experience": "30+ years",
-    "totalLikes": 100000,
+    "totalLikes": "100K",
     "recipes": [
       {
         "recipeTitle": "Butter Chicken",
@@ -17,28 +18,69 @@
           "tomatoes",
           "spices"
         ],
-        "recipe": "Grilled chicken pieces are cooked in a rich, buttery tomato sauce."
+        "recipe": "Grilled chicken pieces are cooked in a rich, buttery tomato sauce.",
+        "rating": 4
       },
       {
         "recipeTitle": "Masala Chai",
         "ingredients": ["water", "milk", "tea leaves", "spices", "sugar"],
-        "recipe": "A spiced tea made with black tea, milk, and a blend of warming spices."
+        "recipe": "A spiced tea made with black tea, milk, and a blend of warming spices.",
+        "rating": 5
       },
       {
         "recipeTitle": "Samosa",
         "ingredients": ["potatoes", "peas", "spices", "flour", "oil"],
-        "recipe": "A popular snack made with a spiced potato and pea filling, wrapped in a crispy pastry."
+        "recipe": "A popular snack made with a spiced potato and pea filling, wrapped in a crispy pastry.",
+        "rating": 4.5
+      }
+    ],
+    "chefBio": "Sanjeev Kapoor is a renowned Indian chef and television personality. He has hosted several popular cooking shows on Indian television and has written several cookbooks."
+  },
+  {
+    "id": 1,
+    "categoryID": 1,
+    "chefName": "Sanjeev Kapoor",
+    "totalRecipeNumber": 1000,
+    "chefURL": "https://static.toiimg.com/thumb/48202473.cms?resizemode=4&width=800",
+    "experience": "30+ years",
+    "totalLikes": "100K",
+    "recipes": [
+      {
+        "recipeTitle": "Butter Chicken",
+        "ingredients": [
+          "chicken",
+          "yogurt",
+          "ginger",
+          "garlic",
+          "tomatoes",
+          "spices"
+        ],
+        "recipe": "Grilled chicken pieces are cooked in a rich, buttery tomato sauce.",
+        "rating": 4
+      },
+      {
+        "recipeTitle": "Masala Chai",
+        "ingredients": ["water", "milk", "tea leaves", "spices", "sugar"],
+        "recipe": "A spiced tea made with black tea, milk, and a blend of warming spices.",
+        "rating": 5
+      },
+      {
+        "recipeTitle": "Samosa",
+        "ingredients": ["potatoes", "peas", "spices", "flour", "oil"],
+        "recipe": "A popular snack made with a spiced potato and pea filling, wrapped in a crispy pastry.",
+        "rating": 4.5
       }
     ],
     "chefBio": "Sanjeev Kapoor is a renowned Indian chef and television personality. He has hosted several popular cooking shows on Indian television and has written several cookbooks."
   },
   {
     "categoryID": 2,
+    "id": 2,
     "chefName": "Vikas Khanna",
     "totalRecipeNumber": 500,
     "chefURL": "https://im.rediff.com/getahead/2017/sep/06chefvikaskhanna.jpg",
     "experience": "20+ years",
-    "totalLikes": 50000,
+    "totalLikes": "50K",
     "recipes": [
       {
         "recipeTitle": "Chicken Tikka Masala",
@@ -50,54 +92,196 @@
           "tomatoes",
           "spices"
         ],
-        "recipe": "Marinated chicken is cooked in a creamy tomato sauce."
+        "recipe": "Marinated chicken is cooked in a creamy tomato sauce.",
+        "rating": 5
       },
       {
         "recipeTitle": "Baingan Bharta",
         "ingredients": ["eggplant", "tomatoes", "onions", "spices"],
-        "recipe": "Roasted eggplant is mashed and cooked with tomatoes and spices."
+        "recipe": "Roasted eggplant is mashed and cooked with tomatoes and spices.",
+        "rating": 4.5
       },
       {
         "recipeTitle": "Gulab Jamun",
         "ingredients": ["milk powder", "flour", "sugar", "oil", "butter"],
-        "recipe": "A popular Indian dessert made with milk powder and fried to perfection."
+        "recipe": "A popular Indian dessert made with milk powder and fried to perfection.",
+        "rating": 4.5
+      }
+    ],
+    "chefBio": "Vikas Khanna is a Michelin-starred Indian chef and restaurateur. He has written several cookbooks and has been a judge on several Indian cooking reality shows."
+  },
+  {
+    "categoryID": 2,
+    "id": 2,
+    "chefName": "Vikas Khanna",
+    "totalRecipeNumber": 500,
+    "chefURL": "https://im.rediff.com/getahead/2017/sep/06chefvikaskhanna.jpg",
+    "experience": "20+ years",
+    "totalLikes": "50K",
+    "recipes": [
+      {
+        "recipeTitle": "Chicken Tikka Masala",
+        "ingredients": [
+          "chicken",
+          "yogurt",
+          "ginger",
+          "garlic",
+          "tomatoes",
+          "spices"
+        ],
+        "recipe": "Marinated chicken is cooked in a creamy tomato sauce.",
+        "rating": 5
+      },
+      {
+        "recipeTitle": "Baingan Bharta",
+        "ingredients": ["eggplant", "tomatoes", "onions", "spices"],
+        "recipe": "Roasted eggplant is mashed and cooked with tomatoes and spices.",
+        "rating": 4.5
+      },
+      {
+        "recipeTitle": "Gulab Jamun",
+        "ingredients": ["milk powder", "flour", "sugar", "oil", "butter"],
+        "recipe": "A popular Indian dessert made with milk powder and fried to perfection.",
+        "rating": 4.5
+      }
+    ],
+    "chefBio": "Vikas Khanna is a Michelin-starred Indian chef and restaurateur. He has written several cookbooks and has been a judge on several Indian cooking reality shows."
+  },
+  {
+    "categoryID": 2,
+    "id": 2,
+    "chefName": "Vikas Khanna",
+    "totalRecipeNumber": 500,
+    "chefURL": "https://im.rediff.com/getahead/2017/sep/06chefvikaskhanna.jpg",
+    "experience": "20+ years",
+    "totalLikes": "50K",
+    "recipes": [
+      {
+        "recipeTitle": "Chicken Tikka Masala",
+        "ingredients": [
+          "chicken",
+          "yogurt",
+          "ginger",
+          "garlic",
+          "tomatoes",
+          "spices"
+        ],
+        "recipe": "Marinated chicken is cooked in a creamy tomato sauce.",
+        "rating": 5
+      },
+      {
+        "recipeTitle": "Baingan Bharta",
+        "ingredients": ["eggplant", "tomatoes", "onions", "spices"],
+        "recipe": "Roasted eggplant is mashed and cooked with tomatoes and spices.",
+        "rating": 4.5
+      },
+      {
+        "recipeTitle": "Gulab Jamun",
+        "ingredients": ["milk powder", "flour", "sugar", "oil", "butter"],
+        "recipe": "A popular Indian dessert made with milk powder and fried to perfection.",
+        "rating": 4.5
       }
     ],
     "chefBio": "Vikas Khanna is a Michelin-starred Indian chef and restaurateur. He has written several cookbooks and has been a judge on several Indian cooking reality shows."
   },
   {
     "categoryID": 3,
+    "id": 3,
     "chefName": "Ranveer Brar",
     "totalRecipeNumber": 300,
     "chefURL": "https://ngs-space1.sgp1.digitaloceanspaces.com/am/uploads/mediaGallery/image/1652597275542.jpg-org",
     "experience": "15+ years",
-    "totalLikes": 30000,
+    "totalLikes": "30k",
     "recipes": [
       {
         "recipeTitle": "Paneer Tikka",
         "ingredients": ["paneer", "capsicum", "onions", "spices", "garlic"],
-        "recipe": "Chunks of paneer and vegetables are marinated and grilled to perfection."
+        "recipe": "Chunks of paneer and vegetables are marinated and grilled to perfection.",
+        "rating": 4.5
       },
       {
         "recipeTitle": "Dal Makhani",
         "ingredients": ["lentils", "butter", "cream", "spices", "capsicum"],
-        "recipe": "A rich and creamy lentil dish made with butter and cream."
+        "recipe": "A rich and creamy lentil dish made with butter and cream.",
+        "rating": 5
       },
       {
         "recipeTitle": "Ras Malai",
         "ingredients": ["milk", "sugar", "flour", "cardamom", "cauliflower"],
-        "recipe": "A popular Indian dessert made with soft, spongy cheese balls soaked in sweet, saffron-infused milk."
+        "recipe": "A popular Indian dessert made with soft, spongy cheese balls soaked in sweet, saffron-infused milk.",
+        "rating": 4.5
+      }
+    ],
+    "chefBio": "Ranveer Brar is a popular Indian chef, television host, and cookbook author. He has been a judge on several Indian cooking reality shows and has hosted his own cooking shows."
+  },
+  {
+    "categoryID": 3,
+    "id": 3,
+    "chefName": "Ranveer Brar",
+    "totalRecipeNumber": 300,
+    "chefURL": "https://ngs-space1.sgp1.digitaloceanspaces.com/am/uploads/mediaGallery/image/1652597275542.jpg-org",
+    "experience": "15+ years",
+    "totalLikes": "30k",
+    "recipes": [
+      {
+        "recipeTitle": "Paneer Tikka",
+        "ingredients": ["paneer", "capsicum", "onions", "spices", "garlic"],
+        "recipe": "Chunks of paneer and vegetables are marinated and grilled to perfection.",
+        "rating": 4.5
+      },
+      {
+        "recipeTitle": "Dal Makhani",
+        "ingredients": ["lentils", "butter", "cream", "spices", "capsicum"],
+        "recipe": "A rich and creamy lentil dish made with butter and cream.",
+        "rating": 5
+      },
+      {
+        "recipeTitle": "Ras Malai",
+        "ingredients": ["milk", "sugar", "flour", "cardamom", "cauliflower"],
+        "recipe": "A popular Indian dessert made with soft, spongy cheese balls soaked in sweet, saffron-infused milk.",
+        "rating": 4.5
+      }
+    ],
+    "chefBio": "Ranveer Brar is a popular Indian chef, television host, and cookbook author. He has been a judge on several Indian cooking reality shows and has hosted his own cooking shows."
+  },
+  {
+    "categoryID": 3,
+    "id": 3,
+    "chefName": "Ranveer Brar",
+    "totalRecipeNumber": 300,
+    "chefURL": "https://ngs-space1.sgp1.digitaloceanspaces.com/am/uploads/mediaGallery/image/1652597275542.jpg-org",
+    "experience": "15+ years",
+    "totalLikes": "30k",
+    "recipes": [
+      {
+        "recipeTitle": "Paneer Tikka",
+        "ingredients": ["paneer", "capsicum", "onions", "spices", "garlic"],
+        "recipe": "Chunks of paneer and vegetables are marinated and grilled to perfection.",
+        "rating": 4.5
+      },
+      {
+        "recipeTitle": "Dal Makhani",
+        "ingredients": ["lentils", "butter", "cream", "spices", "capsicum"],
+        "recipe": "A rich and creamy lentil dish made with butter and cream.",
+        "rating": 5
+      },
+      {
+        "recipeTitle": "Ras Malai",
+        "ingredients": ["milk", "sugar", "flour", "cardamom", "cauliflower"],
+        "recipe": "A popular Indian dessert made with soft, spongy cheese balls soaked in sweet, saffron-infused milk.",
+        "rating": 4.5
       }
     ],
     "chefBio": "Ranveer Brar is a popular Indian chef, television host, and cookbook author. He has been a judge on several Indian cooking reality shows and has hosted his own cooking shows."
   },
   {
     "categoryID": 4,
+    "id": 4,
     "chefName": "Tarla Dalal",
     "totalRecipeNumber": 10000,
     "chefURL": "https://images.indianexpress.com/2022/04/Huma-Qureshi.jpg",
     "experience": "50+ years",
-    "totalLikes": 200000,
+    "totalLikes": "20k",
     "recipes": [
       {
         "recipeTitle": "Aloo Gobi",
@@ -108,23 +292,27 @@
           "cream",
           "chickpeas"
         ],
-        "recipe": "A classic Indian dish made with potatoes and cauliflower cooked with aromatic spices."
+        "recipe": "A classic Indian dish made with potatoes and cauliflower cooked with aromatic spices.",
+        "rating": 4.5
       },
       {
         "recipeTitle": "Chole Bhature",
         "ingredients": ["chickpeas", "flour", "spices", "oil", "butter"],
-        "recipe": "A popular Punjabi dish made with spicy chickpeas and deep-fried bread."
+        "recipe": "A popular Punjabi dish made with spicy chickpeas and deep-fried bread.",
+        "rating": 4.5
       },
       {
         "recipeTitle": "Rajma Chawal",
         "ingredients": ["kidney beans", "rice", "spices", "butter", "cucumber"],
-        "recipe": "A hearty and delicious dish made with kidney beans and served with rice."
+        "recipe": "A hearty and delicious dish made with kidney beans and served with rice.",
+        "rating": 4.5
       }
     ],
     "chefBio": "Tarla Dalal was a well-known Indian chef and cookbook author. She authored more than 100 cookbooks and was a pioneer in the field of Indian cookbooks."
   },
   {
     "categoryID": 5,
+    "id": 5,
     "chefName": "Madhur Jaffrey",
     "totalRecipeNumber": 500,
     "chefURL": "https://www.telegraph.co.uk/multimedia/archive/01372/pcurry1_1372531c.jpg",
@@ -134,43 +322,110 @@
       {
         "recipeTitle": "Chicken Curry",
         "ingredients": ["chicken", "tomatoes", "onions", "spices", "butter"],
-        "recipe": "A classic Indian chicken curry made with a spicy tomato and onion sauce."
+        "recipe": "A classic Indian chicken curry made with a spicy tomato and onion sauce.",
+        "rating": 5
       },
       {
         "recipeTitle": "Palak Paneer",
         "ingredients": ["spinach", "paneer", "spices", "butter", "cardamom"],
-        "recipe": "A popular Indian dish made with spinach and paneer cooked in a spiced tomato and onion gravy."
+        "recipe": "A popular Indian dish made with spinach and paneer cooked in a spiced tomato and onion gravy.",
+        "rating": 3.5
       },
       {
         "recipeTitle": "Raita",
         "ingredients": ["yogurt", "cucumber", "mint", "spices", "capsicum"],
-        "recipe": "A refreshing and cooling yogurt dish made with cucumbers and mint."
+        "recipe": "A refreshing and cooling yogurt dish made with cucumbers and mint.",
+        "rating": 4.5
+      }
+    ],
+    "chefBio": "Madhur Jaffrey is a well-known Indian actress, food and travel writer, and cookbook author. She has authored several cookbooks on Indian cuisine and has hosted her own cooking shows."
+  },
+  {
+    "categoryID": 5,
+    "id": 5,
+    "chefName": "Madhur Jaffrey",
+    "totalRecipeNumber": 500,
+    "chefURL": "https://www.telegraph.co.uk/multimedia/archive/01372/pcurry1_1372531c.jpg",
+    "experience": "40+ years",
+    "totalLikes": 100000,
+    "recipes": [
+      {
+        "recipeTitle": "Chicken Curry",
+        "ingredients": ["chicken", "tomatoes", "onions", "spices", "butter"],
+        "recipe": "A classic Indian chicken curry made with a spicy tomato and onion sauce.",
+        "rating": 5
+      },
+      {
+        "recipeTitle": "Palak Paneer",
+        "ingredients": ["spinach", "paneer", "spices", "butter", "cardamom"],
+        "recipe": "A popular Indian dish made with spinach and paneer cooked in a spiced tomato and onion gravy.",
+        "rating": 3.5
+      },
+      {
+        "recipeTitle": "Raita",
+        "ingredients": ["yogurt", "cucumber", "mint", "spices", "capsicum"],
+        "recipe": "A refreshing and cooling yogurt dish made with cucumbers and mint.",
+        "rating": 4.5
+      }
+    ],
+    "chefBio": "Madhur Jaffrey is a well-known Indian actress, food and travel writer, and cookbook author. She has authored several cookbooks on Indian cuisine and has hosted her own cooking shows."
+  },
+  {
+    "categoryID": 5,
+    "id": 5,
+    "chefName": "Madhur Jaffrey",
+    "totalRecipeNumber": 500,
+    "chefURL": "https://www.telegraph.co.uk/multimedia/archive/01372/pcurry1_1372531c.jpg",
+    "experience": "40+ years",
+    "totalLikes": 100000,
+    "recipes": [
+      {
+        "recipeTitle": "Chicken Curry",
+        "ingredients": ["chicken", "tomatoes", "onions", "spices", "butter"],
+        "recipe": "A classic Indian chicken curry made with a spicy tomato and onion sauce.",
+        "rating": 5
+      },
+      {
+        "recipeTitle": "Palak Paneer",
+        "ingredients": ["spinach", "paneer", "spices", "butter", "cardamom"],
+        "recipe": "A popular Indian dish made with spinach and paneer cooked in a spiced tomato and onion gravy.",
+        "rating": 3.5
+      },
+      {
+        "recipeTitle": "Raita",
+        "ingredients": ["yogurt", "cucumber", "mint", "spices", "capsicum"],
+        "recipe": "A refreshing and cooling yogurt dish made with cucumbers and mint.",
+        "rating": 4.5
       }
     ],
     "chefBio": "Madhur Jaffrey is a well-known Indian actress, food and travel writer, and cookbook author. She has authored several cookbooks on Indian cuisine and has hosted her own cooking shows."
   },
   {
     "categoryID": 6,
+    "id": 6,
     "chefName": "Kunal Kapur",
     "totalRecipeNumber": 10000,
     "chefURL": "https://english.cdn.zeenews.com/sites/default/files/2022/12/23/1132938-kunalkapur.jpg",
     "experience": "30+ years",
-    "totalLikes": 500000,
+    "totalLikes": "60k",
     "recipes": [
       {
         "recipeTitle": "Butter Chicken",
         "ingredients": ["chicken", "butter", "cream", "spices", "cauliflower"],
-        "recipe": "A rich and creamy chicken dish made with a tomato and cream sauce."
+        "recipe": "A rich and creamy chicken dish made with a tomato and cream sauce.",
+        "rating": 4.5
       },
       {
         "recipeTitle": "Tandoori Chicken",
         "ingredients": ["chicken", "yogurt", "spices", "cauliflower", "butter"],
-        "recipe": "A classic Indian dish made with marinated chicken grilled in a tandoor oven."
+        "recipe": "A classic Indian dish made with marinated chicken grilled in a tandoor oven.",
+        "rating": 4
       },
       {
         "recipeTitle": "Matar Paneer",
         "ingredients": ["paneer", "peas", "spices", "butter", "onions"],
-        "recipe": "A popular Indian dish made with paneer and green peas cooked in a spiced tomato and onion gravy."
+        "recipe": "A popular Indian dish made with paneer and green peas cooked in a spiced tomato and onion gravy.",
+        "rating": 5
       }
     ],
     "chefBio": "Sanjeev Kapoor is a popular Indian chef, television host, and cookbook author. He has hosted several cooking shows and authored many cookbooks on Indian cuisine. He is also the founder of the FoodFood channel."
