@@ -26,7 +26,7 @@ app.get("/allchef/:id", (req, res) => {
 app.get("/categories/:id", (req, res) => {
   const id = req.params.id;
   console.log(id);
-  const categoryChef = ChefDetails.filter((c) => c.categoryID == id);
+  const categoryChef = ChefDetails.filter((c) => c.chefs_id == id);
   res.send(categoryChef);
 });
 
